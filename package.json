@@ -1,7 +1,6 @@
 {
   "name": "nft-marketplace",
   "version": "0.1.0",
-  "homepage": "https://github.com/0xTranqui/naders-mumbai-marketplace.git",
   "private": true,
   "scripts": {
     "dev": "next dev",
