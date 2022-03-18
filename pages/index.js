@@ -7,8 +7,9 @@ import {
   nftaddress, nftmarketaddress
 } from '../config'
 
-import NFT from '../artifacts/contracts/NFT.sol/NFT.json'
-import Market from '../artifacts/contracts/NFTMarket.sol/NFTMarket.json'
+import NFT from '../utils/NFT.json'
+
+import Market from '../utils/NFTMarket.json'
 
 export default function Home() {
   const [nfts, setNfts] = useState([])
